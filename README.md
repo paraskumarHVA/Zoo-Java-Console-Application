@@ -1,4 +1,4 @@
-# main.java.com.ing.Zoo-Java-Console-Application
+# Zoo-Java-Console-Application
 --- 
 ## Opdracht
 - Maak de applicatie af.
