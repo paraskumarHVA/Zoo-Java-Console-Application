@@ -33,7 +33,7 @@ public class Gorilla extends Animal implements Herbivore {
         int rnd = random.nextInt(2);
         if(rnd == 0)
         {
-            trick = "jumps in tree";
+            trick = "climbs in tree";
         }
         else
         {
