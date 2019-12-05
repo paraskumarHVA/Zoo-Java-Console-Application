@@ -24,6 +24,14 @@ public class Zoo {
         };
         Map<String, Animal> animals = createAnimalsMap(animalValues);
 
+        runCommand(animals);
+    }
+
+    /**
+     * This method will decide which command to run.
+     * @param animals A Map with all animals.
+     */
+    private static void runCommand(Map<String, Animal> animals) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Voer uw command in: ");
 
