@@ -1,10 +1,10 @@
-package main.java.com.ing.Animals;
+package main.java.com.ing.zoo.Animals;
 
-public class Zebra extends Animal implements Herbivore {
-    private String helloText;
+public class Hippo extends Animal implements Herbivore {
     private String eatText;
+    private String helloText;
 
-    public Zebra(String name)
+    public Hippo(String name)
     {
         super(name);
     }
@@ -12,14 +12,14 @@ public class Zebra extends Animal implements Herbivore {
     @Override
     public void sayHello()
     {
-        helloText = "zebra zebra";
+        helloText = "splash";
         System.out.println(helloText);
     }
 
     @Override
     public void eatLeaves()
     {
-        eatText = "munch munch zank yee bra";
+        eatText = "munch munch lovely";
         System.out.println(eatText);
     }
 }

@@ -1,6 +1,6 @@
-package main.java.com.ing;
+package main.java.com.ing.zoo;
 
-import main.java.com.ing.Animals.*;
+import main.java.com.ing.zoo.Animals.*;
 
 import java.util.HashMap;
 import java.util.Map;

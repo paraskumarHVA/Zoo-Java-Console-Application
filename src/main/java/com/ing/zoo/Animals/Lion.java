@@ -1,4 +1,4 @@
-package main.java.com.ing.Animals;
+package main.java.com.ing.zoo.Animals;
 
 public class Lion extends Animal implements Carnivore {
     private String helloText;

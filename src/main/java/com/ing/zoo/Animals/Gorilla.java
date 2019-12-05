@@ -1,13 +1,13 @@
-package main.java.com.ing.Animals;
+package main.java.com.ing.zoo.Animals;
 
 import java.util.Random;
 
-public class Tiger extends Animal implements Carnivore {
-    private String helloText;
+public class Gorilla extends Animal implements Herbivore {
     private String eatText;
+    private String helloText;
     private String trick;
 
-    public Tiger(String name)
+    public Gorilla(String name)
     {
         super(name);
     }
@@ -15,14 +15,14 @@ public class Tiger extends Animal implements Carnivore {
     @Override
     public void sayHello()
     {
-        helloText = "rraaarww";
+        helloText = "waaaaaah";
         System.out.println(helloText);
     }
 
     @Override
-    public void eatMeat()
+    public void eatLeaves()
     {
-        eatText = "nomnomnom oink wubalubadubdub";
+        eatText = "nomnom";
         System.out.println(eatText);
     }
 
@@ -33,11 +33,11 @@ public class Tiger extends Animal implements Carnivore {
         int rnd = random.nextInt(2);
         if(rnd == 0)
         {
-            trick = "jumps in tree";
+            trick = "climbs in tree";
         }
         else
         {
-            trick = "scratches ears";
+            trick = "peel a banana";
         }
         System.out.println(trick);
     }

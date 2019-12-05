@@ -4,7 +4,7 @@
 - Maak de applicatie af.
 - Reorganiseer eventueel de folder structuur.
 - Refactor eventueel de code (denk goed na over de class structure).
-	- Probeer er voor de zorgen dat je bijvoorbeeld geen EatMeat methode kan aanroepen op een main.java.com.ing.Animals.Zebra object.
+	- Probeer er voor de zorgen dat je bijvoorbeeld geen EatMeat methode kan aanroepen op een Zebra object.
 - Voeg 2 nieuwe dieren toe.
 ---
 ## Eisen
