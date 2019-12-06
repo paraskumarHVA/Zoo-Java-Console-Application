@@ -1,8 +1,6 @@
 package main.java.com.ing.zoo.Animals;
 
 public class Fox extends Animal implements Carnivore {
-    private String helloText;
-    private String eatText;
 
     public Fox(String name)
     {
@@ -12,14 +10,12 @@ public class Fox extends Animal implements Carnivore {
     @Override
     public void sayHello()
     {
-        helloText = "Wa-pa-pa-pa-pa-pa-pow";
-        System.out.println(helloText);
+        System.out.println("Wa-pa-pa-pa-pa-pa-pow");
     }
 
     @Override
     public void eatMeat()
     {
-        eatText = "nomnomnomnomnomnomnom";
-        System.out.println(eatText);
+        System.out.println("nomnomnomnomnomnomnom thx");
     }
 }

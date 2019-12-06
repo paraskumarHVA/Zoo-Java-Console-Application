@@ -3,9 +3,6 @@ package main.java.com.ing.zoo.Animals;
 import java.util.Random;
 
 public class Gorilla extends Animal implements Herbivore {
-    private String eatText;
-    private String helloText;
-    private String trick;
 
     public Gorilla(String name)
     {
@@ -15,20 +12,19 @@ public class Gorilla extends Animal implements Herbivore {
     @Override
     public void sayHello()
     {
-        helloText = "waaaaaah";
-        System.out.println(helloText);
+        System.out.println("waaaaaah");
     }
 
     @Override
     public void eatLeaves()
     {
-        eatText = "nomnom";
-        System.out.println(eatText);
+        System.out.println("munch munch thx");
     }
 
     @Override
     public void performTrick()
     {
+        String trick;
         Random random = new Random();
         int rnd = random.nextInt(2);
         if(rnd == 0)

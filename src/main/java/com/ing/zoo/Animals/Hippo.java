@@ -1,8 +1,6 @@
 package main.java.com.ing.zoo.Animals;
 
 public class Hippo extends Animal implements Herbivore {
-    private String eatText;
-    private String helloText;
 
     public Hippo(String name)
     {
@@ -12,14 +10,12 @@ public class Hippo extends Animal implements Herbivore {
     @Override
     public void sayHello()
     {
-        helloText = "splash";
-        System.out.println(helloText);
+        System.out.println("splash");
     }
 
     @Override
     public void eatLeaves()
     {
-        eatText = "munch munch lovely";
-        System.out.println(eatText);
+        System.out.println("munch munch lovely");
     }
 }
