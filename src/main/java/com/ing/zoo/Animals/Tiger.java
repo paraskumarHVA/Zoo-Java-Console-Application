@@ -3,9 +3,6 @@ package main.java.com.ing.zoo.Animals;
 import java.util.Random;
 
 public class Tiger extends Animal implements Carnivore {
-    private String helloText;
-    private String eatText;
-    private String trick;
 
     public Tiger(String name)
     {
@@ -15,20 +12,19 @@ public class Tiger extends Animal implements Carnivore {
     @Override
     public void sayHello()
     {
-        helloText = "rraaarww";
-        System.out.println(helloText);
+        System.out.println("rraaarww");
     }
 
     @Override
     public void eatMeat()
     {
-        eatText = "nomnomnom oink wubalubadubdub";
-        System.out.println(eatText);
+        System.out.println("nomnomnom oink wubalubadubdub");
     }
 
     @Override
     public void performTrick()
     {
+        String trick;
         Random random = new Random();
         int rnd = random.nextInt(2);
         if(rnd == 0)
